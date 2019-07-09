@@ -1,3 +1,3 @@
-# Data Structures
+# Analysis of Linked List
 
-A data structure (or DSA) is a way we store and organize our data. Different kinds of data structures are suited to different kinds of applications, and some are highly specialized to specific tasks.
+A linked list is a linear data structure like an array but the size of the linked can be changed, unlike an array. However, to access an element from a linked list, we might traverse to the entire list, so accessing an element takes O(n) time. Inserting is also O(n) operation because we need to traverse the entire list when the node to be operated is at the last of the linked list.
